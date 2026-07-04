@@ -286,3 +286,14 @@ footer {
   .skills-grid, .community-grid { grid-template-columns: 1fr; }
   .job-header { flex-direction: column; }
 }
+
+/* === PROFILE PHOTO === */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
