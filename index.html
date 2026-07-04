@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christiano Linuxmen — SRE/SysOps Engineer | +20 anos Linux & Cloud | IA aplicada a Operações | Remote-first">
+  <meta name="author" content="Christiano Linuxmen">
+  <title>Christiano Linuxmen | SRE/SysOps Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐧</text></svg>">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo">🐧 <span>linuxmen</span></a>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="greeting">Olá, eu sou</p>
+        <h1>Christiano <span class="accent">Linuxmen</span></h1>
+        <p class="tagline">SRE / SysOps Engineer · +20 anos Linux & Cloud · IA aplicada a Operações</p>
+        <p class="subtitle">Remote-first · Disponível para posições SRE, AI Ops e automação de infraestrutura</p>
+        <div class="hero-links">
+          <a href="https://linkedin.com/in/linuxmen" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/papodesysadmin" target="_blank" rel="noopener">GitHub</a>
+          <a href="cv-christiano.pdf" target="_blank" rel="noopener">📄 CV em PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>+20 anos mantendo infraestrutura Linux e Cloud em produção. Faço sistemas não caírem, automatizo o que ninguém quer fazer na mão e integro IA em operações onde ela resolve de verdade.</p>
+      <p>Gerenciei ambientes com 300+ servidores, migrei datacenters para AWS com zero downtime e reduzi tempo de deploy de 30 para 3 minutos. Fundador de comunidade tech com 92+ eventos e 5.000+ participantes.</p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiência</h2>
+      <div class="job">
+        <div class="job-header">
+          <h3>Consultor SRE Sênior</h3>
+          <span class="period">2020 — presente</span>
+        </div>
+        <p class="company">Apice Solutions · Remoto</p>
+        <ul>
+          <li>Infra multi-cloud (AWS + Cloudflare + on-prem) com 99.9% uptime para plataformas com 50k+ pageviews/mês</li>
+          <li>CI/CD com Podman + systemd + Cloudflare Tunnel — deploy de 30min para 3min</li>
+          <li>Automação com n8n + Make.com + agentes MCP — redução de 80% em tarefas manuais</li>
+          <li>LLMs em produção (Ollama local, GPU) para scoring, geração e orquestração — zero custo de API</li>
+          <li>Hardening Linux (UFW, CSP, DKIM/SPF/DMARC) — Lynis score de 60 → 80/100</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <h3>Fundador</h3>
+          <span class="period">2016 — presente</span>
+        </div>
+        <p class="company">Papo de Sysadmin · SP, Brasil</p>
+        <ul>
+          <li>Maior comunidade independente de SysOps do interior de SP: 92+ eventos, 5.000+ participantes</li>
+          <li>Plataforma de growth (Next.js + PostgreSQL + Drizzle) via Vibe Coding: CRM, métricas, portal</li>
+          <li>5 mantenedores corporativos com relatórios mensais de ROI automatizados</li>
+          <li>Keynote e palestrante em +30 eventos técnicos (TDC, DEVPIRA, AI Brasil)</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <h3>Consultor de Infraestrutura</h3>
+          <span class="period">2010 — 2020</span>
+        </div>
+        <p class="company">Apice Solutions · SP, Brasil</p>
+        <ul>
+          <li>Administração Linux (300+ servidores), virtualização KVM/VMware, storage SAN/NAS</li>
+          <li>Monitoramento enterprise (Nagios, Check_MK, Zabbix) com 2.000+ checks ativos</li>
+          <li>Migração de datacenters para cloud (AWS EC2, S3, RDS) com zero downtime</li>
+          <li>Liderança de equipe de infra (3-5 pessoas) em projetos enterprise</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <h3>Administrador de Sistemas</h3>
+          <span class="period">2004 — 2010</span>
+        </div>
+        <p class="company">Apice Solutions / Clientes diversos · SP, Brasil</p>
+        <ul>
+          <li>Implantação e suporte Linux/Windows em ambientes corporativos (50-200 estações)</li>
+          <li>Migração de infraestrutura proprietária para open source (Samba, LDAP, Postfix, Squid)</li>
+          <li>Atendimento multi-cliente com gestão simultânea de 10+ ambientes</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Competências Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Infraestrutura & Cloud</h3>
+          <div class="tags"><span>Linux</span><span>AWS</span><span>Cloudflare</span><span>Nginx</span><span>Podman</span><span>Docker</span><span>systemd</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Automação & Observabilidade</h3>
+          <div class="tags"><span>n8n</span><span>Make.com</span><span>Terraform</span><span>Ansible</span><span>Zabbix</span><span>Prometheus</span><span>Grafana</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>AI Ops & Desenvolvimento</h3>
+          <div class="tags"><span>Ollama</span><span>MCP Agents</span><span>Python</span><span>Node.js</span><span>Next.js</span><span>PostgreSQL</span><span>Drizzle</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Segurança & Rede</h3>
+          <div class="tags"><span>UFW/iptables</span><span>OWASP</span><span>DKIM/SPF/DMARC</span><span>Cloudflare Access</span><span>VPN</span><span>Hardening CIS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comunidade">
+      <h2>Comunidade & Liderança</h2>
+      <div class="community-grid">
+        <div class="community-item">
+          <h3>Facilitador Diamante</h3>
+          <p class="org">AI Brasil · 2025-atual</p>
+          <p>Maior ecossistema de IA do Brasil · Host do Circuito de IA SP · 64 referências</p>
+        </div>
+        <div class="community-item">
+          <h3>Community Manager — OWASP SP</h3>
+          <p class="org">OWASP Foundation · 2018-atual</p>
+          <p>Maior capítulo LATAM · Meetups de AppSec, DevSecOps, OWASP Top 10</p>
+        </div>
+        <div class="community-item">
+          <h3>AWS User Group Leader</h3>
+          <p class="org">Interior SP · 2019-atual</p>
+          <p>Organização de meetups e talks sobre cloud AWS na região</p>
+        </div>
+        <div class="community-item">
+          <h3>Palestrante e Keynote</h3>
+          <p class="org">+30 eventos · 2014-atual</p>
+          <p>TDC, DEVPIRA Festival, AI Brasil Experience, Circuito de IA Oracle</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação</h2>
+      <div class="education">
+        <div class="edu-item">
+          <h3>Pós-graduação em Liderança, Gestão e Resultados</h3>
+          <p>Escola Conquer · 2025-2026</p>
+        </div>
+        <div class="edu-item">
+          <h3>Tecnólogo em Redes de Computadores</h3>
+          <p>Estácio Radial Santo André · 2012-2014</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Remote-first · Disponível para posições SRE, AI Ops e automação de infraestrutura.</p>
+      <div class="contact-links">
+        <a href="mailto:linuxmen@papodesysadmin.org">📧 Email</a>
+        <a href="https://linkedin.com/in/linuxmen" target="_blank" rel="noopener">💼 LinkedIn</a>
+        <a href="https://github.com/papodesysadmin" target="_blank" rel="noopener">🐙 GitHub</a>
+        <a href="https://papodesysadmin.org" target="_blank" rel="noopener">🌐 Comunidade</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Christiano Linuxmen · HTML + CSS · Zero frameworks</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      toggle.textContent = next === 'dark' ? '🌙' : '☀️';
+      localStorage.setItem('theme', next);
+    });
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      html.setAttribute('data-theme', saved);
+      toggle.textContent = saved === 'dark' ? '🌙' : '☀️';
+    }
+  </script>
+</body>
+</html>
